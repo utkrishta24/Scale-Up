@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8  offset-lg-2">
+                <div>
+                <center><h3 class="mt-5 mb-5">Video Surviallence is On!</h3></center>
+               
+                </div>
+
+               <center> <img src="{{ url_for('video_feed') }}" width="80%" height="80%"></center>
+               <!-- <center><div class="d-grid gap-2 col-6  mt-5 block">
+                <button class="btn btn-primary" type="button">Stop Surveillance</button></center> -->
+                
+              </div>
+            </div>
+        </div>
+    </div>
+    </body>
+
+
+</html>
